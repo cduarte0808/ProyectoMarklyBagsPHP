@@ -1,3 +1,128 @@
 body {
     background-color: rgb(228, 198, 198);
+
+    width: 100%;
+    height: 0%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    /* overflow-x: hidden;
+    Para ocultar la barra de desplazamiento horizontal */
+}
+
+header {
+    background-color: #502110;
+    /* Agrega imagen de fondo */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen al tamaño de la sección */
+    background-position: center;
+    /* Centra la imagen horizontal y verticalmente */
+    padding: 30px 10px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrar contenido horizontalmente */
+    border-bottom: 2px solid #A67B5B;
+    /* Borde inferior de 2px de grosor y color oscuro */
+
+}
+
+
+
+nav {
+    display: inline-block;
+    /* Permite centrar horizontalmente */
+}
+
+.logo {
+    float: left;
+    /* Posiciona la imagen a la izquierda */
+    margin-left: 30px;
+    margin-right: 20px;
+    /* Espacio entre la imagen y la lista de navegación */
+}
+
+.logoshop {
+    float: right;
+    /* Posiciona la imagen absolutamente */
+    margin-right: 40px
+        /* Espacio entre la imagen y el borde derecho de la pagina*/
+}
+
+.logoname {
+    float: left;
+    /* Posiciona la imagen a la izquierda */
+    margin-right: 20px;
+    /* Espacio entre la imagen y la lista de navegación */
+}
+
+
+nav ul {
+    list-style: none;
+    /* Quita los estilos de la lista */
+    padding: 0;
+    margin: 0 auto;
+    /* Centra la lista horizontalmente */
+
+}
+
+nav ul li {
+    display: inline;
+    /* Muestra los elementos de la lista en línea */
+    margin-right: 20px;
+    /* Espacio entre elementos de la lista */
+}
+
+nav ul li a {
+    color: #fff;
+    /* Color de texto claro */
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Subraya el enlace al pasar el ratón */
+}
+
+.sectionprincipal {
+    background-image: url('./assets/images/Rectangle\ \(1\).png');
+    /* Agrega imagen de fondo */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen al tamaño de la sección */
+    background-position: center;
+    /* Centra la imagen horizontal y verticalmente */
+}
+
+.articleprincipal {
+    position: relative;
+    /* Establece el contexto de posicionamiento */
+    text-align: center;
+    /* Alinea el contenido al centro */
+}
+
+
+.imagen {
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 0;
+    /* Posición desde la parte superior */
+    left: 0;
+    /* Posición desde la parte izquierda */
+    display: inline-block;
+    /* Permite centrar la imagen */
+}
+
+.img-page {
+    z-index: 1;
+    /* Imagen en la capa más baja */
+}
+
+.img-bolso {
+    z-index: 2;
+    /* Imagen en la capa intermedia */
+}
+
+.img-tittle {
+    z-index: 3;
+    /* Imagen en la capa más alta */
 }
