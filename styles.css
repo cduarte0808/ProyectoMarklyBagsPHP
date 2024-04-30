@@ -91,38 +91,6 @@ nav ul li a:hover {
     /* Ajusta el tamaño de la imagen al tamaño de la sección */
     background-position: center;
     /* Centra la imagen horizontal y verticalmente */
-}
-
-.articleprincipal {
     position: relative;
     /* Establece el contexto de posicionamiento */
-    text-align: center;
-    /* Alinea el contenido al centro */
-}
-
-
-.imagen {
-    position: absolute;
-    /* Posiciona las imágenes de forma absoluta */
-    top: 0;
-    /* Posición desde la parte superior */
-    left: 0;
-    /* Posición desde la parte izquierda */
-    display: inline-block;
-    /* Permite centrar la imagen */
-}
-
-.img-page {
-    z-index: 1;
-    /* Imagen en la capa más baja */
-}
-
-.img-bolso {
-    z-index: 2;
-    /* Imagen en la capa intermedia */
-}
-
-.img-tittle {
-    z-index: 3;
-    /* Imagen en la capa más alta */
 }
