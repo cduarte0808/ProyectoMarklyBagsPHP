@@ -119,6 +119,40 @@ nav ul li a:hover {
 .img-tittle {
     position: absolute; /* Posiciona las imágenes de forma absoluta */
     top: 350px; /* Posición desde la parte superior */
-    left: 400px; /* Posición desde la parte izquierda */
+    left: 430px; /* Posición desde la parte izquierda */
     z-index: 3; /* Capa más alta */
+}
+
+.texto {
+    position: absolute; /* Posiciona las imágenes de forma absoluta */
+    top: 460px; /* Posición desde la parte superior */
+    left: 470px; /* Posición desde la parte izquierda */
+    z-index: 4; /* Capa más alta */
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.boton {
+    position: absolute; /* Posiciona las imágenes de forma absoluta */
+    top: 580px; /* Posición desde la parte superior */
+    left: 660px; /* Posición desde la parte izquierda */
+    z-index: 5; /* Capa más alta */
+    width: 125px;
+    height: 48px;
+}
+
+.pieSeccion {
+    display:flex;
+    justify-content: space-between;
+    background-color: #502110;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    padding: 20px 20px;
+}
+
+nav ul li a:hover{
+    color: chocolate;
 }
