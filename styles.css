@@ -95,39 +95,57 @@ nav ul li a:hover {
 .seccion1 {
     background-color: #502110;
     width: 1440px;
-    position: relative; /* Establece el contexto de posicionamiento */
-    height: 799px; /* Altura del contenedor */
+    position: relative;
+    /* Establece el contexto de posicionamiento */
+    height: 799px;
+    /* Altura del contenedor */
 }
 
 
 
- 
+
 .img-page {
-    position: absolute; /* Posiciona las imágenes de forma absoluta */
-    top: 0; /* Posición desde la parte superior */
-    left: 0; /* Posición desde la parte izquierda */
-    z-index: 1; /* Capa más baja */
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 0;
+    /* Posición desde la parte superior */
+    left: 0;
+    /* Posición desde la parte izquierda */
+    z-index: 1;
+    /* Capa más baja */
 }
- 
+
 .img-bolso {
-    position: absolute; /* Posiciona las imágenes de forma absoluta */
-    top: 50px; /* Posición desde la parte superior */
-    left: 250px; /* Posición desde la parte izquierda */
-    z-index: 2; /* Capa intermedia */
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 50px;
+    /* Posición desde la parte superior */
+    left: 250px;
+    /* Posición desde la parte izquierda */
+    z-index: 2;
+    /* Capa intermedia */
 }
- 
+
 .img-tittle {
-    position: absolute; /* Posiciona las imágenes de forma absoluta */
-    top: 350px; /* Posición desde la parte superior */
-    left: 430px; /* Posición desde la parte izquierda */
-    z-index: 3; /* Capa más alta */
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 350px;
+    /* Posición desde la parte superior */
+    left: 430px;
+    /* Posición desde la parte izquierda */
+    z-index: 3;
+    /* Capa más alta */
 }
 
 .texto {
-    position: absolute; /* Posiciona las imágenes de forma absoluta */
-    top: 460px; /* Posición desde la parte superior */
-    left: 470px; /* Posición desde la parte izquierda */
-    z-index: 4; /* Capa más alta */
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 460px;
+    /* Posición desde la parte superior */
+    left: 470px;
+    /* Posición desde la parte izquierda */
+    z-index: 4;
+    /* Capa más alta */
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -135,16 +153,20 @@ nav ul li a:hover {
 }
 
 .boton {
-    position: absolute; /* Posiciona las imágenes de forma absoluta */
-    top: 580px; /* Posición desde la parte superior */
-    left: 660px; /* Posición desde la parte izquierda */
-    z-index: 5; /* Capa más alta */
+    position: absolute;
+    /* Posiciona las imágenes de forma absoluta */
+    top: 580px;
+    /* Posición desde la parte superior */
+    left: 660px;
+    /* Posición desde la parte izquierda */
+    z-index: 5;
+    /* Capa más alta */
     width: 125px;
     height: 48px;
 }
 
 .pieSeccion {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     background-color: #502110;
     color: white;
@@ -153,6 +175,26 @@ nav ul li a:hover {
     padding: 20px 20px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: chocolate;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.footer-marca,
+.footer-listas {
+    flex: 1;
+}
+
+
+
+.footer-copy {
+    margin-top: 20px;
 }
