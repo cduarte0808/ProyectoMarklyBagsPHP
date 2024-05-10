@@ -179,22 +179,33 @@ nav ul li a:hover {
     color: chocolate;
 }
 
-footer {
-    background-color: rgb(255, 255, 255);
+
+/* Footer */
+
+
+.footer_div {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 20px;
-
+    /* Añade espacio alrededor del footer */
+    background-color: #f0f0f0;
+    /* Cambia el color de fondo del footer si es necesario */
 }
 
-.footer-marca,
-.footer-listas {
-    flex: 1;
+.izquierda {
+    width: 400px;
+    background-color: aqua;
 }
 
+.derecha {
+    display: flex;
+    justify-content: space-between;
+}
 
+.abajo {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
 
-.footer-copy {
-    margin-top: 20px;
 }
