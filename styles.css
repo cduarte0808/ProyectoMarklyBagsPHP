@@ -3,8 +3,8 @@ body {
     text-align: center;
 }
 
-main{
-    text-align: center; 
+main {
+    text-align: center;
     padding-left: 20%;
 }
 
@@ -42,7 +42,7 @@ nav {
     float: right;
     /* Posiciona la imagen absolutamente */
     margin-right: 40px;
-        /* Espacio entre la imagen y el borde derecho de la pagina*/   
+    /* Espacio entre la imagen y el borde derecho de la pagina*/
 }
 
 .logoname {
@@ -111,7 +111,7 @@ nav ul li a:hover {
     margin-bottom: 60px;
 }
 
-.h1s4{
+.h1s4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -125,7 +125,7 @@ nav ul li a:hover {
     text-align: left;
 }
 
-.ps4{
+.ps4 {
     position: absolute;
     font-size: small;
     color: white;
@@ -136,17 +136,17 @@ nav ul li a:hover {
     text-align: left;
 }
 
-.btns4{
+.btns4 {
     margin-top: 20px;
     padding: 10px 20px;
 }
 
-.btns4:hover{
+.btns4:hover {
     background-color: pink;
 }
 
-.imgRosada{
-    width:"700px";
+.imgRosada {
+    width: "700px";
 }
 
 .img-page {
@@ -235,7 +235,7 @@ nav ul li a:hover {
 
 .footer_div {
     width: 59%;
-    text-align: center; 
+    text-align: center;
     margin-left: 20%;
     display: flex;
     justify-content: space-between;
@@ -261,80 +261,118 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     width: 59%;
-    text-align: center; 
+    text-align: center;
     margin-left: 20%;
 }
 
 /* página blog.html */
 
-.headerBlog{
+.headerBlog {
     padding-left: 24%;
-    text-align: left; 
+    text-align: left;
     padding-top: 5%;
 }
-.mainBlogBag{
-    text-align: center; 
+
+.mainBlogBag {
+    text-align: center;
     padding-left: 23%;
 }
-.tarjeta{
-    border: 1px solid gray; 
-    width: 40%; 
+
+.tarjeta {
+    border: 1px solid gray;
+    width: 40%;
     padding: 10px;
     margin: 20px;
-    text-align: left; 
+    text-align: left;
 }
-.seccionTarjetas{
-    display:flex; 
-    justify-content: space-around; 
+
+.seccionTarjetas {
+    display: flex;
+    justify-content: space-around;
     width: 70%;
 }
-.textoTarjetas{
+
+.textoTarjetas {
     color: gray;
 }
-.headVarios{
-    display:flex; 
+
+.headVarios {
+    display: flex;
     justify-content: space-between;
     width: 68%;
     align-items: center;
 }
-.logMin{
+
+.logMin {
     width: 22px;
     height: 22px;
 }
 
 /* página bags.html*/
 
-.headerBags{
-    text-align: center; 
+.headerBags {
+    text-align: center;
     padding-top: 5%;
 }
-.headVarBags{
-    display:flex; 
+
+.headVarBags {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.ajCarrusel{
+
+.ajCarrusel {
     padding-bottom: 125px;
 }
 
 /* página accesories.html*/
 
-.headerAccesorios{
-    text-align: left; 
+.headerAccesorios {
+    text-align: left;
     padding-left: 20%;
 }
-.mainAccesorios{
-    text-align: center; 
+
+.mainAccesorios {
+    text-align: center;
     padding-left: 19%;
 }
-.tarjAccesorio{
-    padding:8px; 
+
+.tarjAccesorio {
+    padding: 8px;
     margin: 9px;
 }
-.headVarAcc{
-    display:flex; 
+
+.headVarAcc {
+    display: flex;
     justify-content: left;
     align-items: center;
 }
 
+/* seccion 2  */
+.text2 {
+    margin-top: 105px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: center;
+}
 
+.contenedors2 {
+    display: flex;
+    /* Utiliza un contenedor flex */
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    height: 490px;
+    /* Altura opcional para el artículo */
+    border: 1px solid black;
+    /* Borde para visualización */
+}
+
+.centrado {
+    /* Estilos adicionales para el div centrado */
+    background-color: lightgray;
+    /* Color de fondo */
+    padding: 20px;
+    /* Espacio alrededor del contenido */
+}
