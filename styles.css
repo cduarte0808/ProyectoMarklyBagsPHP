@@ -365,14 +365,58 @@ nav ul li a:hover {
     /* Centra verticalmente el contenido */
     height: 490px;
     /* Altura opcional para el artículo */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* Borde para visualización */
+}
+
+.contenedors3 {
+    display: flex;
+    /* Utiliza un contenedor flex */
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    height: 400px;
+    /* Altura opcional para el artículo */
+    /* border: 1px solid black; */
     /* Borde para visualización */
 }
 
 .centrado {
     /* Estilos adicionales para el div centrado */
-    background-color: lightgray;
+    /* background-color: lightgray; */
     /* Color de fondo */
     padding: 20px;
     /* Espacio alrededor del contenido */
+}
+
+.negrita-grande {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.pequeno {
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.pequeno-opaco {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.button-s3 {
+    margin-top: 15px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    width: 110px;
+    height: 40px;
+    float: left;
+
 }
