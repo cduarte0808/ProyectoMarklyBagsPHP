@@ -121,7 +121,7 @@ nav ul li a:hover {
     z-index: 1;
     width: 450px;
     text-align: left;
-    color: white;
+
 }
 
 .sec8 {
@@ -145,15 +145,19 @@ nav ul li a:hover {
     padding: 10px;
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .btns8 {
     margin-top: 20px;
     padding: 10px 20px;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .btns8:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: #502110;
+    color: white;
 }
 
 .seccionFlex2 {
