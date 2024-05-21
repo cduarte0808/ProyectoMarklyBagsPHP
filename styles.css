@@ -237,18 +237,24 @@ nav ul li a:hover {
     width: 59%;
     text-align: center;
     margin-left: 20%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
     /* Añade espacio alrededor del footer */
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     /* Cambia el color de fondo del footer si es necesario */
 }
 
 .izquierda {
     width: 400px;
-    background-color: aqua;
+
+}
+
+.footerizquierdat {
+    display: flex;
+    padding: 2%;
 }
 
 .derecha {
@@ -257,13 +263,39 @@ nav ul li a:hover {
 }
 
 .abajo {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    width: 59%;
+    width: 62%;
     text-align: center;
     margin-left: 20%;
 }
+
+.footer__social {
+    display: flex;
+    /* Hace que el contenedor use Flexbox */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    gap: 10px;
+    /* Espacio entre los elementos */
+    padding: 20px;
+    /* Espacio interno del contenedor */
+
+    color: white;
+    /* Color del texto */
+}
+
+.footer__icons {
+
+    margin-bottom: 10px;
+}
+
+.footer__img {
+    width: 30px;
+}
+
 
 /* página blog.html */
 
