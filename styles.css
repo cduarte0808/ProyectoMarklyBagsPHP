@@ -92,6 +92,68 @@ nav ul li a:hover {
 .secciong {
     width: 75.5%;
     position: relative;
+    z-index: 1;
+}
+
+.seccion8 {
+    width: 75.5%;
+    position: relative;
+    z-index: 1;
+}
+
+.seccionFlex8 {
+    display: flex;
+    height: 600px;
+    background-color: #7F2E3B;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.h1s8 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    position: absolute;
+    top: 120px;
+    left: 440px;
+    z-index: 1;
+    width: 450px;
+    text-align: left;
+    color: white;
+}
+
+.sec8 {
+    color: white
+}
+
+.ps8 {
+
+    font-size: 10px;
+    color: white;
+    top: 390px;
+    left: 600px;
+    z-index: 2;
+    width: 280px;
+    text-align: left;
+}
+
+.input8 {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btns8 {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.btns8:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 .seccionFlex2 {
@@ -488,11 +550,11 @@ h2 {
     color: #ffffff;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
+.input1[type="text"],
+.input1[type="number"],
+.input1[type="email"],
+.input1[type="tel"],
+.input1[type="date"],
 
 .buttonf {
     width: 100%;
