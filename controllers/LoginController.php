@@ -32,7 +32,7 @@ Class LoginController {
             http_response_code(200);
             echo "Echo el usuario logueado exitosamente";
             $_SESSION['user'] = $usuariosDb[0];*/
-            $_SESSION['form-contacto'] = '¡El usuario fue validado exitósamente, bienvenido al Módulo de Administración!';
+            $_SESSION['form-registro'] = '¡El usuario fue validado exitósamente, bienvenido al Módulo de Administración!';
             header("Location:adminProductos.php");            
             
         //}

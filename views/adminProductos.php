@@ -10,7 +10,7 @@
   <title>Markly</title>
 
   <style>
-        #mensajeOK {
+        #mensajeOK2 {
             display: none;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
@@ -20,8 +20,8 @@
     </style>
 
     <script>
-        function mostrarMensaje() {
-            var mensaje = document.getElementById('mensajeOK');
+        function mostrarMensaje2() {
+            var mensaje = document.getElementById('mensajeOK2');
             mensaje.style.display = 'block';
             setTimeout(function() {
                 mensaje.style.display = 'none';
@@ -49,17 +49,17 @@ include __DIR__."/../views/layouts/header.php";
     <?php
         // Generar el mensaje
         if (isset($_SESSION['form-registro'])) {
-            echo '<div id="mensajeOK" style="width:450px; text-align:left">'.$_SESSION['form-registro'].'</div>';
-            echo '<script>mostrarMensaje();</script>';
+            echo '<div id="mensajeOK2" style="width:450px; text-align:left">'.$_SESSION['form-registro'].'</div>';
+            echo '<script>mostrarMensaje2();</script>';
             unset($_SESSION['form-registro']);
         }
         ?>
-        <form id="login" action="crearProductos.php" method="POST">
+        <form id="productos" action="crearProductos.php" method="POST">
             <div>
-              <input type="text" class="input1" id="nombre" placeholder="INGRESA NOMBRE DE PRODUCTO">
+              <input type="text" class="input1" name="nombre" placeholder="INGRESA NOMBRE DE PRODUCTO">
             </div>
             <div>
-              <input type="text" class="input1" id="descripcion" placeholder="INGRESA DESCRIPCION DEL PRODUCTO">
+              <input type="text" class="input1" name="descripcion" placeholder="INGRESA DESCRIPCION DEL PRODUCTO">
             </div>
             <div id="containermsj">
               <p id="msj">&nbsp;</p>

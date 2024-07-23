@@ -22,10 +22,10 @@ include __DIR__."/../views/layouts/header.php";
     <div>
         <form id="login" action="loginAuth.php" method="POST">
             <div>
-              <input type="text" class="input1" id="email" placeholder="INGRESA TU EMAIL">
+              <input type="text" class="input1" name="email" placeholder="INGRESA TU EMAIL">
             </div>
             <div>
-              <input type="text" class="input1" id="password" placeholder="INGRESA TU CONTRASEÑA*">
+              <input type="text" class="input1" name="password" placeholder="INGRESA TU CONTRASEÑA*">
             </div>
             <div id="containermsj">
               <p id="msj">&nbsp;</p>
