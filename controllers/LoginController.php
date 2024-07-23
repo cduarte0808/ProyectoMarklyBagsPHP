@@ -22,20 +22,19 @@ Class LoginController {
             ':password' => $dataForm['password']
         ];
         
-        //$usuariosDb = 
-        $this->conexionDB->runQuery($query,$params);
+        $usuariosDb = $this->conexionDB->runQuery($query,$params);
 
-        /*if(count($usuariosDb) < 1) {
+        if(count($usuariosDb) < 1) {
             http_response_code(500);
             echo "El usuario no existe o la contraseña es incorrecta";
         }else {
             http_response_code(200);
             echo "Echo el usuario logueado exitosamente";
-            $_SESSION['user'] = $usuariosDb[0];*/
+            $_SESSION['user'] = $usuariosDb[0];
             $_SESSION['form-registro'] = '¡El usuario fue validado exitósamente, bienvenido al Módulo de Administración!';
             header("Location:adminProductos.php");            
             
-        //}
+        }
     }
 
 }
