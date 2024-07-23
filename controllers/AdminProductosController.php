@@ -24,7 +24,7 @@ Class AdminProductosController {
         
         $this->conexionDB->runQuery($query,$params);
 
-        //$_SESSION['form-contacto'] = '¡La información fue registrada exitósamente!';
+        $_SESSION['form-registro'] = '¡La información fue registrada exitósamente!';
         header("Location:adminProductos.php");
 
     }

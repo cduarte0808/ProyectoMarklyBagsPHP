@@ -8,6 +8,26 @@
   <link rel="stylesheet" href="./public/css/reset.css" />
   <link rel="stylesheet" href="./public/css/styles.css " />
   <title>Markly</title>
+
+  <style>
+        #mensajeOK {
+            display: none;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+
+    <script>
+        function mostrarMensaje() {
+            var mensaje = document.getElementById('mensajeOK');
+            mensaje.style.display = 'block';
+            setTimeout(function() {
+                mensaje.style.display = 'none';
+            }, 4000); // El mensaje desaparecerá después de 5 segundos
+        }
+    </script>
 </head>
 
 <body>
@@ -26,6 +46,14 @@ include __DIR__."/../views/layouts/header.php";
           </a>
     </div>   
     <div>
+    <?php
+        // Generar el mensaje
+        if (isset($_SESSION['form-registro'])) {
+            echo '<div id="mensajeOK" style="width:450px; text-align:left">'.$_SESSION['form-registro'].'</div>';
+            echo '<script>mostrarMensaje();</script>';
+            unset($_SESSION['form-registro']);
+        }
+        ?>
         <form id="login" action="crearProductos.php" method="POST">
             <div>
               <input type="text" class="input1" id="nombre" placeholder="INGRESA NOMBRE DE PRODUCTO">
